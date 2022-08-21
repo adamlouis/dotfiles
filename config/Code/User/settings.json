@@ -1,0 +1,35 @@
+{
+  "atomKeymap.promptV3Features": true,
+  "workbench.startupEditor": "none",
+  "cmake.configureOnOpen": false,
+  "explorer.confirmDelete": false,
+  "gopls": {
+    "build.experimentalWorkspaceModule": true
+  },
+  "[proto3]": {
+    "editor.defaultFormatter": "zxh404.vscode-proto3"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "go.toolsManagement.autoUpdate": true,
+  "trunk.trunkGrayOutNonBlockingIssues": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "redhat.telemetry.enabled": false,
+  "python.languageServer": "Pylance",
+  "go.lintOnSave": "workspace",
+  "go.lintTool": "golangci-lint",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "window.titleBarStyle": "custom"
+}

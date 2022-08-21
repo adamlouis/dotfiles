@@ -1,0 +1,11 @@
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias gitclean='git branch --merged | egrep -v "(^\*|master|main|dev)" | xargs git branch -d'
+alias open="mimeopen"
+alias vi=vim
+
+# copy onto clipboard 
+alias copy="xclip -selection c"
+# paste into terminal
+alias paste="xclip -selection clipboard -o"

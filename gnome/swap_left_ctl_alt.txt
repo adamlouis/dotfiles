@@ -1,0 +1,3 @@
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=['ctrl:swap_lalt_lctl']
