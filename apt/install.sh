@@ -38,5 +38,5 @@ sudo apt-get install -y \
     tlp \
     tlp-rdw \
     traceroute \
-    vim |
+    vim \
     xclip
