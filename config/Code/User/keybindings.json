@@ -24,6 +24,13 @@
     "command": "workbench.action.terminal.focus"
   },
   {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.terminal.newWithCwd",
+    "args": {
+      "cwd": "${fileDirname}"
+    }
+  },
+  {
     "key": "ctrl+shift+e",
     "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
