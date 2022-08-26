@@ -142,6 +142,10 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 # set up rust
 . "$HOME/.cargo/env"
 
+# set up deno
+export DENO_INSTALL="~/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
 # https://stackoverflow.com/questions/9457233/unlimited-bash-history
 # Eternal bash history.
 # ---------------------

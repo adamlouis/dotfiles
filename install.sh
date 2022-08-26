@@ -18,6 +18,9 @@ go/install-go-cmds.sh
 rust/install-rust.sh
 rust/install-cargo-pkgs.sh
 
+# install deno
+deno/install-deno.sh
+
 # install misc apps & modules
 misc/install-docker.sh
 misc/install-vscode-extensions.sh
