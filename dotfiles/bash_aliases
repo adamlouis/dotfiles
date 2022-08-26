@@ -5,6 +5,7 @@ alias gitclean='git branch --merged | egrep -v "(^\*|master|main|dev)" | xargs g
 alias open="mimeopen"
 alias vi=vim
 alias sql=sqlite3
+alias sq=sqlite3
 
 # copy onto clipboard 
 alias copy="xclip -selection c"
