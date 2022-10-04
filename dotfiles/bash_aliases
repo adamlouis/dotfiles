@@ -4,6 +4,7 @@ alias l='ls -CF'
 alias gitclean='git branch --merged | egrep -v "(^\*|master|main|dev)" | xargs git branch -d'
 alias open="mimeopen"
 alias vi=vim
+alias sqlite=sqlite3
 alias sql=sqlite3
 alias sq=sqlite3
 
