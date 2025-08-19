@@ -15,3 +15,9 @@ alias gitcleansqmain='git checkout -q main && git for-each-ref refs/heads/ "--fo
 alias copy="xclip -selection c"
 # paste into terminal
 alias paste="xclip -selection clipboard -o"
+
+gitup() {
+  git add -A
+  git commit -am "gitup"
+  git push origin "$(git rev-parse --abbrev-ref HEAD)"
+}
